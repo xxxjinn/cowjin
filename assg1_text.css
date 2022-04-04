@@ -1,0 +1,22 @@
+ol{
+    border:1px;
+    border-color: #D4D4D7;
+    border-style: solid;
+    height: 300px;
+    width:200px;
+}
+#gnb{
+    position:absolute;
+    left:30px; top:180px;
+}
+
+p{
+    font-size: 15px;
+}
+
+p:nth-child(2n){
+    color: red;
+}
+p:nth-child(2n+1){
+    color:blue;
+}
